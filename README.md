@@ -51,7 +51,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <img src = "bryan2.svg" alt="Bryan"/>
+      <a class="navbar-brand" href="https://github.com/W0478181">GitHub Profile</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
