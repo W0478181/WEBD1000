@@ -78,7 +78,7 @@
       <p>This is a main page to get easy access to assignments and repositories.</p>
       <hr>
       <h3>Test</h3>
-      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum..</p>
     </div>
     <div class="col-sm-2 sidenav">
       <div class="well">
