@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" type="text/css" href="STYLE.css">
+<div class="header">
+    <h1>Dyan Bryan</h1><hr>
+    <h2>He was the man</h2>
+    <div id="mysidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="FirstCSSAbout.html">About</a>
+        <a href="#">Contact</a>
+        </div>
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+    </div>
+</div>
+</head>
+<body>
+    <div id = "main">
+        <div class="text-container">
+            <div class="Bodyheader">
+            <h2>Why Bryan</h2>
+            <h4>Bryan was innocent he never did anything wrong. So why did 10 weeks of cigs kill him?</h4>
+            <p class="Bodytext">He died doing what he loved. Smoking with Bryan Jr by his side. But the 10 weeks is misinformation; it was 25 years.</p>
+            </div>
+        </div>
+    </div>
+<script>
+    function openNav() {
+        document.getElementById("mysidenav").style.width = "180px";
+        document.getElementById("main").style.marginLeft = "180px";
+    }     
+    function closeNav() {
+      document.getElementById("mysidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+<div class="footer">
+    <p>Aiden Connolly</p>
+    <p>W0478181</p>
+</div>
+</body>
+</html>
