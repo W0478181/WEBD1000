@@ -1,5 +1,5 @@
 .header {
-  background-color: #14569d;
+  background-color: #024B84;
   color: #fff;
   padding: 15px 0;
   --bs-gutter-x: 1.5rem;
@@ -10,7 +10,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .navbar {
   background-color: rgb(33, 106, 184);
@@ -26,17 +25,17 @@
   color: #fff;
 }
 
-
 .drivers-container,
 .riders-container {
   margin-right: 15px;
 }
-  
 
+.container{
+  width: 100%;
+}
 .section {
   margin-bottom: 30px;
 }
-
 
 .footer {
   position: fixed;
@@ -55,6 +54,7 @@
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: larger;
 }
+
 .footer-link {
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
