@@ -39,9 +39,7 @@
 
 
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
+  position: absolute;
   background-color: #14569d;
   color: rgb(255, 255, 255);
   padding: 5px;
