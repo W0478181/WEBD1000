@@ -1,0 +1,14 @@
+.mydiv {
+    margin: 16px 16px 16px 16px;
+    border: 4px solid coral;
+    border-radius: 8px;
+}
+
+.div2 {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+  }
