@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  border:solid rgb(0, 0, 0);
+}
+header {
+  background-color: rgb(26, 73, 96);
+  color: #fff;
+  padding: 10px;
+  margin:0;
+  text-align: center;
+  }
+
+nav {
+  border-style: solid;
+  overflow: visible;
+  position: sticky;
+  padding: 10px;
+  top: 0;
+  background-color: rgb(39, 101, 135);
+  }
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+nav a.right {
+  float: right;
+}
+nav a:hover {
+  background-color: rgb(27, 107, 147);
+  color: black;
+}
+nav a.active {
+  background-color: rgb(26, 73, 96);
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: rgb(131, 146, 160);
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: rgb(131, 146, 160);
+  border-left: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-left h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+}
+
+.flex-item-right h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+}
+
+.flex-item-left p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 30px;
+}
+
+.flex-item-right p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 30px;
+}
+.flex-item-right a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  background-color: rgb(26, 73, 96);
+  color: rgb(255, 255, 255);
+  padding: 1px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: larger;
+}
+.footer-link {
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-size: small;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
